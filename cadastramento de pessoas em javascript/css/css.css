@@ -1,0 +1,66 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ffe7c4;
+    background-color: #ffe7c4;
+
+    h1{
+        font-family: 'Phudu', cursive;
+    }
+}
+
+label {
+    font-weight: bold;
+}
+
+.dados {
+    margin-top: 10px;
+}
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+   background-image: url(../img/fd9f20ab9327c628991362a43c318b87.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #cec9be;
+    background-color: #fff;
+    position: relative; /* Adicionado para posicionamento dos furos */
+}
+
+/* Estilos para simular furos de fichário na lateral esquerda */
+.furo-fichario {
+    width: 10px;
+    height: 10px;
+    background-color: #9a9a9a;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.furo-1 {
+    top: 10px;
+    left: 10px;
+}
+
+.furo-2 {
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.furo-3 {
+    bottom: 10px;
+    left: 10px;
+}
